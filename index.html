@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+     <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
+     <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-poppins">
+  <section class="h-max w-full bg-blue-50 w-full md:p-12 p-8 lg:px-16 ">
+    <header class="">
+        <nav class="flex flex-row justify-between">
+            <div>
+                <img class="" src="./images/Logo.png" alt="">
+            </div>
+            <div>
+              <ul class="lg:flex lg:flex-row space-x-8  text-md hidden">
+                <li>About</li>
+                <li>Pricing</li>
+                <li>Contact Us</li>
+                <li>Login</li>
+                <div>
+                <a class="px-6 py-1.5 border-purple-500 border-2 rounded-full text-purple-500 " href="#">Start free trial</a>
+                </div>
+              </ul>
+            </div>
+            <!-- mobile responsive -->
+            <div class="flex lg:hidden ">
+              <a class="text-4xl text-purple-900" href="#"><ion-icon name="menu"></ion-icon></a>
+            </div>
+          </nav>
+    </header>
+
+    <!-- page1 -->
+    <section class="h-max mt-20  lg:flex lg:justify-between lg:items-center ">
+        <div class="flex flex-col space-y-6  lg:w-1/2 ">
+          <!--  -->
+          <div class="flex flex-row space-x-2  w-60 pl-2 text-md text-purple-600 font-semibold rounded-full py-2 bg-purple-100">
+            <a class="inline-flex" href="#">
+              <img src="./images/edit-brightness.svg" alt=""></a>
+              <p>v3.1 released.</p>
+              <p class="decoration-purple-500 underline decoration-1">Learn more</p>
+          </div>
+          <!--  -->
+
+          <div class="text-4xl font-bold leading-normal">
+            <h1>Your data with real-time analytics</h1>
+          </div>
+          <div class="text-md text-zinc-500 font-semibold">
+            <p>Harness the potential of Big Data Analytics & Cloud Services and become a data-driven organisation with Needle tail </p>
+          </div>
+          <div class="flex flex-row space-x-4">
+            <a class="px-5 py-2 bg-purple-700 rounded-full shadow-lg text-white font-semibold" href="#">Start free trial</a>
+            <a class="px-5 py-2 bg-white font-semibold  rounded-full text-purple-600" href="#">Learn more</a>
+          </div>
+        </div>
+        
+        <div class="lg:w-2/4">
+          <img src="./images/image 1.png" alt="">
+        </div>
+</div>
+</section>
+</section>  
+
+
+
+<!-- page2 -->
+<section class="h-max p-8">
+  <div class="flex flex-col justify-center items-center mt-10 space-y-10 lg:space-y-14 ">
+    <!--  -->
+    <div class="flex flex-row space-x-2 px-5 py-2 rounded-full  bg-purple-100">
+      <a class="inline-flex" href="#"><img src="./images/Icon awesome-eye.png" alt=""></a>
+       <p class="text-md text-purple-600 font-semibold">Why Qubly</p>
+       </div>
+       <!--  -->
+       <h1 class="text-4xl font-bold text-center">Get actionable insights from Big Data in 3 steps</h1>
+       <p class="text-center lg:w-3/4 md:w-3/4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus totam blanditiis quaerat deserunt illo, vel neque fugiat inventore numquam suscipit.</p>
+
+       <div class="grid grid-cols-1 lg:grid-cols-3 space-y-4 lg:space-y-0 lg:space-x-4 lg:px-12 md:px-20 px-6">
+        <div class=" flex flex-col justify-center text-center items-center space-y-4 ">
+          <img class="w-10" src="./images/chart-bar-33.svg" alt="">
+          <h1 class="text-xl font-bold"> Valuable business insights</h1>
+          <p class="text-md">Collect processed and cleaned data that is ready to be analyzed to gather valuable business insights</p>
+        </div>
+
+        <div class=" flex flex-col justify-center text-center items-center space-y-4">
+          <img class="w-10" src="./images/newsletter-dev.svg" alt="">
+          <h1 class="text-xl font-bold"> Powerful Algorithms</h1>
+          <p class="text-md">With the help of powerful algorithms, quality rules & techniques, obtain simplified & enriched data.</p>
+        </div>
+
+        <div class=" flex flex-col justify-center text-center items-center space-y-4">
+          <img class="w-10" src="./images/timeline.svg" alt="">
+          <h1 class="text-xl font-bold">Data in real-time</h1>
+          <p class="text-md">Collect data in real-time from multiple channels and move into data lake, in its original format.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of page2 -->
+
+  <!-- page3 -->
+
+  <section class="h-max px-8 lg:mt-24 md:px-16 lg:px-14">
+    <div class="flex lg:flex-row flex-col lg:space-y-0 lg:space-x-10 space-y-8 justify-center items-center xl:space-x-24">
+      <img class="self-center w-2/3 md:w-1/2 lg:w-2/5 xl:w-1/3"  src="./images/Group 21.svg" alt="">
+      <div class="flex flex-col lg:w-1/2 space-y-6  ">
+
+        <div class="flex flex-row space-x-2  w-52 text-md text-purple-600 font-semibold rounded-full py-2 bg-purple-100">
+          <a class="inline-flex" href="#">
+            <img class="pl-3" src="./images/Group 11.svg" alt=""></a>
+            <p class="font-bold text-md">For Product Teams</p>
+        </div>
+
+        <h1 class="text-4xl font-bold">Launch with best stack</h1>
+        <p class="text-md font-semibold text-zinc-500">A centralized platform that integrates zillions of data sources using Big Data ELT(Extract, Load & Transform) that leaves no data behind.</p>
+
+    </div>
+    </div>
+</section>
+<!-- end of page3 -->
+
+<!--  -->
+<section class="h-max mt-20 p-8 lg:px-16 md:px-16 xl:px-20">
+  <div class="flex flex-col lg:flex-row space-y-8 lg:space-y-28 justify-center items-center">
+    <div class="flex flex-col  space-y-6">
+
+      <div class="flex flex-row space-x-2 w-56 py-2 rounded-full pl-2 bg-purple-100 ">
+        <img class="inline-flex" src="./images/Group 28.svg" alt="">
+        <p class="text-md text-purple-600 font-bold">For Engineering Teams</p>
+      </div>
+      <h1 class="text-4xl font-bold">Data-driven pipelines in minutes</h1>
+      <p class="text-md font-semibold text-zinc-500 lg:w-3/4">Maintenance-free data pipelines with quick setup and  straight-forward deployments that are powered by modern & scalable platform</p>
+    </div>
+    <!--  -->
+    <div>
+      <img class="self-center lg:w-full md:w-3/4" src="./images/image 6.png" alt="">
+    </div>
+</div>
+</section>
+<!--  -->
+
+<section class="h-max bg-gradient-to-b from-purple-50 via-50% to-sky-100 p-8 lg:px-16 xl:px-44 lg:mt-20 md:mt-20 mt-10 w-full">
+  <div class="flex flex-col space-y-8 lg:mt-10">
+  <h1 class="text-2xl font-semibold leading-normal text-center">"What i love about SullivanAnalytics is the easy way to we can collaborate even if there is lot of people involved in the process"</h1>
+
+  <div class="flex flex-col space-y-3 justify-center items-center">
+    <img class="w-24" src="./images/Profile.png" alt="">
+    <p class="text-xl font-bold">Rowan Sullivan</p>
+    <p class="text-xl font-bold">CTO @ SullivanAnalytics</p>
+  </div>
+
+  <div class="h-px w-11/12 bg-stone-400 self-center"></div>
+
+  <div class="lg:flex lg:flex-row md:flex md:flex-row space-x-14 justify-center items-center hidden">
+    <img src="./images/Logo.png" alt="">
+    <img src="./images/Logo.png" alt="">
+    <img src="./images/Logo.png" alt="">
+    <img src="./images/Logo.png" alt="">
+  </div>
+  <div class="lg:hidden md:hidden flex flex-row space-x-14 justify-center items-center">
+    <img src="./images/Logo.png" alt="">
+    <img src="./images/Logo.png" alt="">
+  </div>
+</div>
+</section>
+<!-- end of page -->
+<!-- start -->
+<section class="h-max lg:mt-10">
+  <div class="flex flex-col space-y-20 lg:space-y-0 lg:space-x-20  lg:flex-row">
+    <div>
+      <div class="flex flex-col space-y-14 md:space-y-10 lg:pl-24 lg:mt-5 justify-center items-center p-8 xl:pl-48 ">
+        <h1 class="text-2xl font-bold md:w-72   lg:w-72">See why the world's best companies use Qubly to become truly data-driven</h1>
+        <div class="flex flex-col space-y-32">
+          <div class="flex flex-row space-x-16">
+          <img src="./images/Logo.png" alt="">
+          <img src="./images/Logo.png" alt="">
+          </div>
+         
+         <div class="flex flex-row space-x-16">
+          <img src="./images/Logo.png" alt="">
+          <img src="./images/Logo.png" alt="">
+         </div>
+         </div>
+    </div>
+</div>
+     <div class="md:self-center lg:w-1/2">
+
+      <div class="relative w-72 h-96 lg:w-96 md:w-96 top-7  bg-purple-100 z-0 rounded-lg shadow-md mx-auto">
+        <div class="relative self-center bottom-8 w-64 md:w-80 lg:w-80 h-96 md:left-8 left-4 bg-white  z-10 rounded-md shadow-md">
+
+          <div class="flex flex-col space-y-2 justify-center items-center">
+            <p class="self-center text-2xl font-bold text-purple-950">signup</p>
+
+            <a class="bg-purple-700 md:w-64 w-56 py-2 text-center text-white rounded-sm" href="#">Start your free trial</a>
+            <input class="w-56 md:w-64 py-2 border-2 pl-2 rounded-sm border-zinc-200" type="text" placeholder="your primary mail">
+            <input class="w-56 md:w-64 py-2 border-2 pl-2 rounded-sm border-zinc-200" type="text" placeholder="password">
+            <input class="w-56 md:w-64 py-2 border-2 pl-2 rounded-sm border-zinc-200" type="text" placeholder="Re-type password">
+            <p class="font-semibold">OR</p>
+            <img class="w-44" src="./images/btn_google_signin_dark_normal_web@2x.svg" alt="">
+            <div class="h-px w-56 bg-zinc-300"></div>
+            <p class="text-sm">Already have an account?<span class="text-purple-700">Login</span></p>
+
+          </div>
+        </div>
+      </div>
+      </div>
+</div>
+</section>
+<!--  end  -->
+<!-- footer -->
+<section class="h-max w-full mt-24 bg-blue-50 lg:p-24 p-8  md:p-16 xl:p-32">
+  <div class=" flex lg:flex-row md:flex-row flex-col space-y-5 md:space-x-10 lg:space-x-14 xl:space-x-24 items-center ">
+    <div class="flex flex-col space-y-4 self-center">
+    <img class="w-24" src="./images/Logo.png" alt="">
+    <p class="text-sm w-44 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquid voluptatem, ut quasi consequatur totam odio perferendis hic consequuntur, quos unde nobis, rerum mollitia?</p>
+    <div class="flex flex-row space-x-4">
+      <img src="./images/facebook-icon.svg" alt="">
+      <img src="./images/twitter-3.svg" alt="">
+      <img src="./images/instagram-2016.svg" alt="">
+    </div>
+    </div>
+
+    <div class="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-2 md:gap-3 lg:gap-3 space-y-4 lg:space-y-0 md:space-y-0 xl:gap-14">
+      <div class=" flex flex-col space-y-3 mt-4 md:mt-0 lg:mt-0">
+        <p class="font-bold text-md ">product</p>
+        <div class="">
+          <ul class=" flex flex-col space-y-2 text-sm">
+            <li>connections</li>
+            <li>protocols</li>
+            <li>catalog</li>
+            <li>pricing</li>
+            <li>security</li>
+          </ul>
+          
+
+        </div>
+
+      </div>
+
+<div class="flex flex-col space-y-3">
+  <p class="font-bold text-md "> Developers</p>
+  <div class="">
+    <ul class="flex flex-col space-y-2 text-sm">
+      <li>Docs</li>
+      <li>API</li>
+      <li>open source</li>
+      <li>Engineering team</li>
+    </ul>
+    
+
+  </div>
+
+</div>
+<!--  -->
+<div class=" flex flex-col space-y-3">
+  <p class="font-bold text-md ">Company</p>
+  <div class="">
+    <ul class="flex flex-col space-y-2 text-sm">
+      <li>Careers</li>
+      <li>Blog</li>
+      <li>Press</li>
+    </ul>
+    
+
+  </div>
+
+</div>
+
+<div class="flex flex-col space-y-3">
+  <p class="font-bold text-md ">Support</p>
+  <div class="">
+    <ul class="flex flex-col space-y-2 text-sm">
+      <li>Help</li>
+      <li>contact us</li>
+      <li>security</li>
+      <li>portal</li>
+      <li>partner</li>
+    </ul>
+    
+
+  </div>
+
+</div>
+</div>
+</div>
+</section>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>  
